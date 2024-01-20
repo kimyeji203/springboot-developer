@@ -7,6 +7,10 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+/**
+ * {@link RequiredArgsConstructor} : 생성자 주입
+ * {@link org.springframework.beans.factory.annotation.Autowired} : 필드 주입
+ */
 @Service
 @RequiredArgsConstructor
 public class TestService
